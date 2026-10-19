@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0c0c0e">
+  <meta name="format-detection" content="telephone=no">
+  <title>AURUM Detailing — детейлинг-центр в Краснодаре</title>
+  <meta name="description" content="AURUM Detailing, Краснодар: полировка, керамика, PPF-плёнка, химчистка салона, оклейка, шумоизоляция. Гарантия до 5 лет. Рассчитайте стоимость онлайн.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="img/hero.webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arr" viewBox="0 0 14 14"><path d="M3 11 11 3M5 3h6v6" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-car" viewBox="0 0 26 16"><path d="M2 11.5V9.2c0-.7.4-1.3 1-1.5l2.4-.9L8 3.6c.4-.5 1-.8 1.6-.8h6.6c.6 0 1.2.3 1.6.7l3 3.3 2.2.6c.7.2 1.1.8 1.1 1.5v2.6M6.5 12.5h13" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><circle cx="6" cy="12.3" r="1.8" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="20" cy="12.3" r="1.8" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+  <symbol id="i-suv" viewBox="0 0 26 16"><path d="M2 12V7.5c0-.6.4-1.1.9-1.3L4.5 5.6 6.4 2.3c.3-.5.8-.8 1.4-.8h10.9c.6 0 1.1.3 1.4.8l2 3.5 1.1.4c.5.2.8.7.8 1.2V12M7 12.6h12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><circle cx="5.3" cy="12.4" r="1.8" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="20.7" cy="12.4" r="1.8" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+  <symbol id="i-play" viewBox="0 0 12 12"><rect x=".7" y="1.7" width="10.6" height="8.6" rx="1" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M3 1.7v8.6M9 1.7v8.6M.7 4.5H3M.7 7.5H3M9 4.5h2.3M9 7.5h2.3" stroke="currentColor" stroke-width="1"/></symbol>
+</svg>
+
+<!-- ============ Шапка ============ -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo" aria-label="AURUM Detailing — на главную"><b>AURUM</b><span>DETAILING</span></a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#results">До / после</a>
+      <a href="#team">О центре</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+      <a href="#contacts" class="btn btn--gold nav__cta" data-topic="Диагностика ЛКП">Записаться <svg class="arr"><use href="#i-arr"/></svg></a>
+    </nav>
+    <div class="header__right">
+      <span class="city">Краснодар</span>
+      <a href="#contacts" class="btn btn--ghost btn--sm" data-topic="Диагностика ЛКП">Записаться <svg class="arr"><use href="#i-arr"/></svg></a>
+      <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ 01. Первый экран ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__media"><img src="img/hero.webp" alt="Полировка чёрного автомобиля в боксе AURUM" width="512" height="382" fetchpriority="high"></div>
+    <div class="hero__shade"></div>
+    <div class="hero__glare" id="glare"></div>
+    <div class="container hero__inner">
+      <span class="hero__kicker fade" style="--d:.1s">Детейлинг-центр / Краснодар</span>
+      <h1 class="h1 lines">
+        <span class="ln"><span style="--i:0">Вернём авто заводской</span></span>
+        <span class="ln"><span style="--i:1">блеск — <span class="gold">гарантия до 5</span></span></span>
+        <span class="ln"><span style="--i:2" class="gold">лет</span></span>
+      </h1>
+      <p class="hero__lead fade" style="--d:.6s">Полировка, защитные покрытия и уход за салоном. Сохраняем характер вашего автомобиля — от первого отражения до последней детали.</p>
+      <div class="hero__actions fade" style="--d:.75s">
+        <a href="#calc" class="btn btn--gold magnet">Рассчитать стоимость <svg class="arr"><use href="#i-arr"/></svg></a>
+        <a href="#contacts" class="btn btn--ghost magnet">Записаться <svg class="arr"><use href="#i-arr"/></svg></a>
+      </div>
+      <p class="hero__note fade" style="--d:.9s">Гарантия до 5 лет зависит от услуги и покрытия. Условия фиксируем в договоре.</p>
+    </div>
+    <div class="hero__bar fade" style="--d:1.05s">
+      <div class="container">
+        <span class="hero__tag">Эстетика. Защита. Характер.</span>
+        <span>Полировка в деталях / обложка видео</span>
+        <a href="#calc" class="down" aria-label="Листать вниз"><svg width="14" height="14" viewBox="0 0 14 14"><path d="M7 1v11M2 7.5 7 12.5l5-5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02. Расчёт стоимости ============ -->
+  <section class="section" id="calc">
+    <div class="container">
+      <div class="head">
+        <span class="kicker reveal"><b>02 /</b> Расчёт стоимости</span>
+        <h2 class="h2 lines"><span class="ln"><span>Ваш автомобиль. Ваш уход.</span></span></h2>
+        <p class="sub reveal" style="--d:.1s">Выберите класс и услугу — покажем ориентир по стоимости. Точную смету согласуем после осмотра.</p>
+      </div>
+
+      <div class="calc">
+        <div class="card calc__main reveal">
+          <div class="calc__top">
+            <span class="step-label">01 / Выберите параметры</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h7M12 4h2M2 12h2M7 12h7M9 2.5v3M5.5 10.5v3" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          </div>
+          <span class="flabel">Класс автомобиля</span>
+          <div class="classes" role="radiogroup" aria-label="Класс автомобиля">
+            <button type="button" class="cls" role="radio" aria-checked="false" data-k="0.85" data-name="Малый класс"><svg><use href="#i-car"/></svg>Малый</button>
+            <button type="button" class="cls is-active" role="radio" aria-checked="true" data-k="1" data-name="Средний класс"><svg><use href="#i-car"/></svg>Средний</button>
+            <button type="button" class="cls" role="radio" aria-checked="false" data-k="1.2" data-name="Крупный класс"><svg><use href="#i-car"/></svg>Крупный</button>
+            <button type="button" class="cls" role="radio" aria-checked="false" data-k="1.35" data-name="SUV"><svg><use href="#i-suv"/></svg>SUV</button>
+          </div>
+          <span class="flabel" id="svcLabel">Услуга</span>
+          <div class="select" id="svcSelect">
+            <button type="button" class="select__btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="svcLabel"><span class="select__value">Керамика</span><svg viewBox="0 0 12 8"><path d="m1 1.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+            <ul class="select__list" role="listbox" aria-labelledby="svcLabel">
+              <li class="select__opt" role="option" data-price="12000" aria-selected="false">Полировка <small>от 12 000 ₽</small></li>
+              <li class="select__opt" role="option" data-price="24000" aria-selected="true">Керамика <small>от 24 000 ₽</small></li>
+              <li class="select__opt" role="option" data-price="45000" aria-selected="false">PPF-плёнка <small>от 45 000 ₽</small></li>
+              <li class="select__opt" role="option" data-price="9000" aria-selected="false">Химчистка салона <small>от 9 000 ₽</small></li>
+              <li class="select__opt" role="option" data-price="80000" aria-selected="false">Оклейка <small>от 80 000 ₽</small></li>
+              <li class="select__opt" role="option" data-price="35000" aria-selected="false">Шумоизоляция <small>от 35 000 ₽</small></li>
+              <li class="select__opt" role="option" data-price="18000" aria-selected="false">Антигравийная защита <small>от 18 000 ₽</small></li>
+            </ul>
+            <input type="hidden" id="svcValue" value="Керамика">
+          </div>
+          <div class="calc__res">
+            <span class="flabel">Ориентировочная стоимость</span>
+            <div class="price" id="price" aria-live="polite">от 24 000 ₽</div>
+            <p class="calc__meta"><span id="priceMeta">Средний класс · Керамика</span><br>Примерные цены. Итог — после осмотра.</p>
+          </div>
+          <p class="calc__info"><svg viewBox="0 0 14 14" aria-hidden="true"><circle cx="7" cy="7" r="6" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M7 6.2v3.8M7 4.2v.1" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>Показан пример расчёта. На стоимость влияют состояние ЛКП, площадь обработки и выбранное покрытие.</p>
+        </div>
+
+        <form class="card form reveal" style="--d:.12s" id="calcForm" novalidate>
+          <span class="step-label">02 / Обсудим детали</span>
+          <h3>Получить расчёт</h3>
+          <p>Оставьте контакты — уточним задачу и подберём подходящий вариант защиты.</p>
+          <label class="field"><span>Имя</span><input type="text" name="name" placeholder="Как к вам обращаться" autocomplete="name" required></label>
+          <label class="field"><span>Телефон</span><input type="tel" name="phone" class="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required></label>
+          <div class="field select" data-name="messenger">
+            <span class="field__label" id="m1">Где удобнее общаться</span>
+            <button type="button" class="select__btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="m1"><span class="select__value">Telegram</span><svg viewBox="0 0 12 8"><path d="m1 1.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+            <ul class="select__list" role="listbox" aria-labelledby="m1">
+              <li class="select__opt" role="option" aria-selected="true">Telegram</li>
+              <li class="select__opt" role="option" aria-selected="false">WhatsApp</li>
+              <li class="select__opt" role="option" aria-selected="false">Телефонный звонок</li>
+            </ul>
+            <input type="hidden" name="messenger" value="Telegram">
+          </div>
+          <input type="hidden" name="calc" value="">
+          <button type="submit" class="btn btn--gold btn--block">Получить расчёт <svg class="arr"><use href="#i-arr"/></svg></button>
+          <label class="consent"><input type="checkbox" name="consent" required><span class="consent__box" aria-hidden="true"></span><span>Согласен на обработку персональных данных. <a href="privacy.html" target="_blank">Политика конфиденциальности</a></span></label>
+          <div class="form__ok" role="status"><svg viewBox="0 0 46 46"><circle cx="23" cy="23" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m14 23.5 6 6 12-13" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><b>Заявка отправлена</b><span>Свяжемся с вами в ближайшее время и уточним детали.</span></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03. Услуги ============ -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="head">
+        <span class="kicker reveal"><b>03 /</b> Услуги</span>
+        <h2 class="h2 lines"><span class="ln"><span>Точность в каждой детали.</span></span></h2>
+        <p class="sub reveal" style="--d:.1s">От деликатного восстановления до комплексной защиты. Подберём решение под ваш автомобиль и привычный ритм жизни.</p>
+      </div>
+
+      <div class="services">
+        <a href="#calc" class="card svc reveal" data-service="Полировка"><div class="svc__img"><img src="img/s_polish.webp" alt="Полировка кузова" loading="lazy" width="512" height="285"></div><div class="svc__body"><span class="svc__title">Полировка<svg><use href="#i-arr"/></svg></span><p>Глубина цвета и зеркальный блеск</p><span class="svc__price">от 12 000 ₽</span></div></a>
+        <a href="#calc" class="card svc reveal" style="--d:.06s" data-service="Керамика"><div class="svc__img"><img src="img/s_ceramic.webp" alt="Керамическое покрытие" loading="lazy" width="512" height="285"></div><div class="svc__body"><span class="svc__title">Керамика<svg><use href="#i-arr"/></svg></span><p>Гидрофобность и защита покрытия</p><span class="svc__price">от 24 000 ₽</span></div></a>
+        <a href="#calc" class="card svc reveal" style="--d:.12s" data-service="PPF-плёнка"><div class="svc__img"><img src="img/s_ppf.webp" alt="Оклейка PPF-плёнкой" loading="lazy" width="512" height="285"></div><div class="svc__body"><span class="svc__title">PPF-плёнка<svg><use href="#i-arr"/></svg></span><p>Прозрачная защита кузова</p><span class="svc__price">от 45 000 ₽</span></div></a>
+        <a href="#calc" class="card svc reveal" style="--d:.18s" data-service="Химчистка салона"><div class="svc__img"><img src="img/s_interior.webp" alt="Химчистка салона" loading="lazy" width="512" height="285"></div><div class="svc__body"><span class="svc__title">Химчистка салона<svg><use href="#i-arr"/></svg></span><p>Чистота кожи, ткани и каждой детали</p><span class="svc__price">от 9 000 ₽</span></div></a>
+        <a href="#calc" class="card svc reveal" data-service="Оклейка"><div class="svc__img"><img src="img/s_wrap.webp" alt="Оклейка кузова" loading="lazy" width="512" height="343"></div><div class="svc__body"><span class="svc__title">Оклейка<svg><use href="#i-arr"/></svg></span><p>Новый цвет. Тот же характер.</p><span class="svc__price">от 80 000 ₽</span></div></a>
+        <a href="#calc" class="card svc reveal" style="--d:.06s" data-service="Шумоизоляция"><div class="svc__img"><img src="img/s_noise.webp" alt="Шумоизоляция" loading="lazy" width="512" height="343"></div><div class="svc__body"><span class="svc__title">Шумоизоляция<svg><use href="#i-arr"/></svg></span><p>Тишина и комфорт в движении</p><span class="svc__price">от 35 000 ₽</span></div></a>
+        <a href="#calc" class="card svc reveal" style="--d:.12s" data-service="Антигравийная защита"><div class="svc__img"><img src="img/s_gravel.webp" alt="Антигравийная защита" loading="lazy" width="512" height="343"></div><div class="svc__body"><span class="svc__title">Антигравийная защита<svg><use href="#i-arr"/></svg></span><p>Для зон, где риск выше</p><span class="svc__price">от 18 000 ₽</span></div></a>
+        <div class="card svc svc--cta reveal" style="--d:.18s">
+          <div>
+            <svg class="spark" viewBox="0 0 26 26" aria-hidden="true"><path d="M11 3c.6 4.6 2.4 6.4 7 7-4.6.6-6.4 2.4-7 7-.6-4.6-2.4-6.4-7-7 4.6-.6 6.4-2.4 7-7ZM20 15c.3 2.2 1.1 3 3.3 3.3-2.2.3-3 1.1-3.3 3.3-.3-2.2-1.1-3-3.3-3.3 2.2-.3 3-1.1 3.3-3.3Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+            <h3>Не знаете,<br>с чего начать?</h3>
+            <p>Начните с диагностики ЛКП. Подскажем, что действительно нужно вашему авто.</p>
+          </div>
+          <a href="#contacts" class="btn btn--gold btn--block" data-topic="Диагностика ЛКП">Подобрать уход <svg class="arr"><use href="#i-arr"/></svg></a>
+        </div>
+      </div>
+      <p class="note reveal">Примерные цены. Итог — после осмотра. Состав и объём работ согласуем до начала.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04. До / после ============ -->
+  <section class="section" id="results">
+    <div class="container">
+      <div class="head">
+        <span class="kicker reveal"><b>04 /</b> До / после</span>
+        <h2 class="h2 lines"><span class="ln"><span>Разницу видно.</span></span></h2>
+        <p class="sub reveal" style="--d:.1s">Свет проявляет каждую деталь. Сравните поверхность до обработки и зеркальную глубину после полировки.</p>
+      </div>
+
+      <div class="compare reveal" id="compare" role="slider" aria-label="Сравнение до и после" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" tabindex="0">
+        <div class="compare__layer compare__layer--after" role="img" aria-label="Кузов после полировки"><span class="compare__half compare__half--l"></span><span class="compare__half compare__half--r"></span></div>
+        <div class="compare__layer compare__layer--before" role="img" aria-label="Кузов до полировки"><span class="compare__half compare__half--l"></span><span class="compare__half compare__half--r"></span></div>
+        <span class="compare__line"><span class="compare__handle"><svg width="14" height="10" viewBox="0 0 14 10"><path d="M4.5 1 1 5l3.5 4M9.5 1 13 5 9.5 9" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span></span>
+        <span class="compare__lbl compare__lbl--l">До</span>
+        <span class="compare__lbl compare__lbl--r">После</span>
+        <span class="compare__cap">Визуализация результата</span>
+      </div>
+
+      <div class="details">
+        <figure class="detail reveal"><figure><img src="img/d_depth.webp" alt="Глубина цвета" loading="lazy"></figure><figcaption>Глубина цвета</figcaption></figure>
+        <figure class="detail reveal" style="--d:.08s"><figure><img src="img/d_geom.webp" alt="Чистая геометрия" loading="lazy"></figure><figcaption>Чистая геометрия</figcaption></figure>
+        <figure class="detail reveal" style="--d:.16s"><figure><img src="img/d_salon.webp" alt="Внимание к салону" loading="lazy"></figure><figcaption>Внимание к салону</figcaption></figure>
+      </div>
+
+      <div class="owners">
+        <div class="head--row">
+          <h3 class="reveal">Опыт владельцев</h3>
+          <a href="#reviews" class="link-gold reveal">Видеоотзывы</a>
+        </div>
+        <div class="videos">
+          <article class="card video reveal">
+            <div class="video__img"><img src="img/v_polish.webp" alt="Чёрный спорткар после полировки" loading="lazy"><span class="play" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M5 3v10l8-5z" fill="currentColor"/></svg></span><span class="video__badge"><svg><use href="#i-play"/></svg>Обложка · пример размещения</span></div>
+            <div class="video__body"><b>Впечатления после полировки</b><p>Место для реального видеоотзыва после согласия владельца</p></div>
+          </article>
+          <article class="card video reveal" style="--d:.1s">
+            <div class="video__img"><img src="img/v_ppf.webp" alt="Кроссовер с защитной плёнкой" loading="lazy"><span class="play" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 16 16"><path d="M5 3v10l8-5z" fill="currentColor"/></svg></span><span class="video__badge"><svg><use href="#i-play"/></svg>Обложка · пример размещения</span></div>
+            <div class="video__body"><b>Опыт защиты PPF</b><p>Место для реального видеоотзыва после согласия владельца</p></div>
+          </article>
+        </div>
+        <p class="note">Изображения — визуализация. Сравнение и обложки показывают формат будущей галереи, а не реальные кейсы центра.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05. Как работаем ============ -->
+  <section class="section section--alt" id="process">
+    <div class="container">
+      <div class="head">
+        <span class="kicker reveal"><b>05 /</b> Как работаем</span>
+        <h2 class="h2 lines"><span class="ln"><span>Прозрачный процесс. Без неожиданных</span></span><span class="ln"><span style="--i:1">решений.</span></span></h2>
+        <p class="sub reveal" style="--d:.1s">Вы знаете, что происходит с автомобилем — от первого осмотра до выдачи.</p>
+      </div>
+      <div class="process">
+        <div class="pstep reveal"><span class="pstep__num">01</span><div><h3>Приём</h3><p>Обсуждаем задачу, пожелания к результату и выбранные услуги.</p></div></div>
+        <div class="pstep reveal" style="--d:.1s"><span class="pstep__num">02</span><div><h3>Осмотр и фиксация состояния</h3><p>Проверяем ЛКП, отмечаем особенности и делаем фотографии до начала работ.</p></div></div>
+        <div class="pstep reveal" style="--d:.2s"><span class="pstep__num">03</span><div><h3>Согласование итоговой цены</h3><p>Фиксируем состав работ и стоимость. Все дополнительные задачи — только с вашего согласия.</p></div></div>
+        <div class="pstep reveal"><span class="pstep__num">04</span><div><h3>Работа</h3><p>Готовим поверхность и выполняем уход по технологии выбранного материала.</p></div></div>
+        <div class="pstep reveal" style="--d:.1s"><span class="pstep__num">05</span><div><h3>Контроль качества</h3><p>Проверяем результат под инспекционным светом и внимание к каждой детали.</p></div></div>
+        <div class="pstep reveal" style="--d:.2s"><span class="pstep__num">06</span><div><h3>Выдача с фотоотчётом</h3><p>Показываем результат, передаём фотоотчёт и рекомендации по дальнейшему уходу.</p></div></div>
+      </div>
+      <p class="process__foot reveal"><svg viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="8" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="m5.5 9.2 2.3 2.3 4.7-5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Сначала согласуем. Потом приступаем.</p>
+    </div>
+  </section>
+
+  <!-- ============ 06. Доверие ============ -->
+  <section class="section" id="trust">
+    <div class="container">
+      <div class="head">
+        <span class="kicker reveal"><b>06 /</b> Доверие</span>
+        <h2 class="h2 lines"><span class="ln"><span>Спокойствие — часть сервиса.</span></span></h2>
+        <p class="sub reveal" style="--d:.1s">Бережный подход должен быть не обещанием, а понятными правилами работы.</p>
+      </div>
+      <div class="trust">
+        <div class="card tcard reveal"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2h7l4 4v12H5zM12 2v4h4M8 10h5M8 13h5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><div><h3>Работа по договору</h3><p>Состав работ и согласованная стоимость зафиксированы письменно.</p></div></div>
+        <div class="card tcard reveal" style="--d:.08s"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1.5l2 1.6 2.6-.1.8 2.5 2.1 1.5-.8 2.5.8 2.5-2.1 1.5-.8 2.5-2.6-.1-2 1.6-2-1.6-2.6.1-.8-2.5-2.1-1.5.8-2.5-.8-2.5 2.1-1.5.8-2.5 2.6.1z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="m7 10 2 2 4-4.2" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><div><h3>Письменная гарантия</h3><p>До 5 лет в зависимости от услуги и покрытия. Точные условия — в договоре.</p></div></div>
+        <div class="card tcard reveal" style="--d:.16s"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 2h5M8.5 2v5.5L3.5 16a1.4 1.4 0 0 0 1.2 2h10.6a1.4 1.4 0 0 0 1.2-2l-5-8.5V2M5.6 12.5h8.8" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><div><h3>Сертифицированная химия</h3><p>Профессиональные составы Gyeon, Ceramic Pro и Koch-Chemie.</p></div></div>
+        <div class="card tcard reveal"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1.8 3.5 4.3v5c0 4.2 2.8 7.3 6.5 8.9 3.7-1.6 6.5-4.7 6.5-8.9v-5z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="m7 10 2.2 2.2L13.2 8" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><div><h3>Страховка автомобиля</h3><p>На время работ. Условия страхового покрытия уточняются при оформлении.</p></div></div>
+        <div class="card tcard reveal" style="--d:.08s"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 6.5 13 3l1.5 4.8L3.5 11.3zM5 10.6l1 3.4M3 15.5h5l1-1.5M14 6l3.5-1.2 1 3.2L15 9.3" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><div><h3>Видеонаблюдение в боксе</h3><p>Автомобиль находится под наблюдением во время работ.</p></div></div>
+        <div class="card tcard tcard--gold reveal" style="--d:.16s"><b><span data-count="5">до 5</span> лет</b><p>Гарантия зависит от услуги и покрытия. Подробности обсудим до начала работ.</p></div>
+      </div>
+      <div class="brands reveal">
+        <span>Материалы для профессионального ухода</span>
+        <div class="brands__row"><span>Gyeon</span><span>Ceramic Pro</span><span>Koch-Chemie</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 07. Команда и бокс ============ -->
+  <section class="section section--alt" id="team">
+    <div class="container">
+      <div class="head">
+        <span class="kicker reveal"><b>07 /</b> Команда и бокс</span>
+        <h2 class="h2 lines"><span class="ln"><span>Место, где важны детали.</span></span></h2>
+        <p class="sub reveal" style="--d:.1s">Чистое пространство, правильный свет и руки, которые понимают материал. Здесь начинается бережный уход.</p>
+      </div>
+      <div class="team">
+        <div class="team__big reveal"><figure><img src="img/space.webp" alt="Бокс AURUM с инспекционным светом" loading="lazy" data-parallax=".06"></figure><div class="team__cap"><span>Пространство AURUM</span><span>Визуальная концепция</span></div></div>
+        <div class="team__card reveal" style="--d:.1s"><figure><img src="img/team_body.webp" alt="Мастер по кузову" loading="lazy"></figure><b>Мастера по кузову</b><span>Полировка · покрытия · плёнки</span></div>
+        <div class="team__card reveal" style="--d:.2s"><figure><img src="img/team_salon.webp" alt="Специалист по салону" loading="lazy"></figure><b>Специалисты по салону</b><span>Деликатная очистка · уход</span></div>
+      </div>
+      <div class="equip">
+        <div class="reveal"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 6V2h4M14 2h4v4M18 14v4h-4M6 18H2v-4M6 10h8" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><b>Инспекционный свет</b><span>Контроль поверхности и финиша</span></div>
+        <div class="reveal" style="--d:.08s"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m3 13 10-10 4 4-10 10zM6 10l1.5 1.5M8.5 7.5 10 9M11 5l1.5 1.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><b>Толщиномер</b><span>Оценка состояния лакокрасочного слоя</span></div>
+        <div class="reveal" style="--d:.16s"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="10" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M10 2.5v4.5M17.5 10H13" stroke="currentColor" stroke-width="1.3"/></svg><b>Полировальные системы</b><span>Точность на каждом этапе</span></div>
+        <div class="reveal" style="--d:.24s"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h9a2 2 0 1 0-2-2M3 10h13a2 2 0 1 1-2 2M3 14h6" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg><b>Экстрактор и пар</b><span>Глубокая очистка салона</span></div>
+      </div>
+      <p class="note reveal">Фото сгенерированы для визуальной концепции. Реальные фотографии команды и бокса будут добавлены перед публикацией.</p>
+    </div>
+  </section>
+
+  <!-- ============ 08. Отзывы и FAQ ============ -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="head">
+        <span class="kicker reveal"><b>08 /</b> Отзывы и FAQ</span>
+        <h2 class="h2 lines"><span class="ln"><span>Открыто о главном.</span></span></h2>
+        <p class="sub reveal" style="--d:.1s">Отзывы владельцев и ответы на вопросы, которые помогают принять решение.</p>
+      </div>
+      <div class="reviews">
+        <div>
+          <div class="platforms">
+            <div class="card platform reveal">
+              <div class="platform__head"><i>Я</i>Яндекс</div>
+              <p>Здесь появятся реальные отзывы с Яндекс. Подключим подтверждённую карточку центра перед публикацией.</p>
+              <a href="https://yandex.ru/maps/?text=AURUM%20Detailing%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80" target="_blank" rel="noopener" class="btn btn--ghost btn--block">Отзывы на Яндекс <svg class="arr"><use href="#i-arr"/></svg></a>
+            </div>
+            <div class="card platform reveal" style="--d:.1s">
+              <div class="platform__head"><i>2</i>2ГИС</div>
+              <p>Здесь появятся реальные отзывы с 2ГИС. Подключим подтверждённую карточку центра перед публикацией.</p>
+              <a href="https://2gis.ru/krasnodar/search/AURUM%20Detailing" target="_blank" rel="noopener" class="btn btn--ghost btn--block">Отзывы в 2ГИС <svg class="arr"><use href="#i-arr"/></svg></a>
+            </div>
+          </div>
+          <p class="note">Без вымышленных рейтингов и цитат. Ссылки на площадки требуют уточнения.</p>
+        </div>
+        <div class="faq reveal" style="--d:.1s">
+          <h3>Перед записью</h3>
+          <div class="faq__list">
+            <div class="qa is-open"><button class="qa__q" aria-expanded="true">Сколько служит керамика?<i class="qa__ico"></i></button><div class="qa__a"><p>Срок зависит от состава, подготовки поверхности, условий эксплуатации и ухода. Подберём покрытие и объясним рекомендации. Гарантия до 5 лет зависит от услуги и покрытия; точные условия фиксируем в договоре.</p></div></div>
+            <div class="qa"><button class="qa__q" aria-expanded="false">Сколько времени займут работы?<i class="qa__ico"></i></button><div class="qa__a"><p>Зависит от услуги, состояния автомобиля и объёма подготовки. Сроки согласуем после осмотра и до начала работ — вместе с итоговой стоимостью.</p></div></div>
+            <div class="qa"><button class="qa__q" aria-expanded="false">Нужна ли предоплата?<i class="qa__ico"></i></button><div class="qa__a"><p>Условия предоплаты уточняются при записи и фиксируются при согласовании заказа. До подтверждения расскажем о порядке оплаты.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 09. Специальное предложение ============ -->
+  <section class="section section--alt" id="offer">
+    <div class="container">
+      <div class="head">
+        <span class="kicker reveal"><b>09 /</b> Специальное предложение</span>
+        <h2 class="h2 lines"><span class="ln"><span>Начнём с вашего автомобиля.</span></span></h2>
+      </div>
+      <div class="card offer reveal">
+        <div class="offer__body">
+          <span class="offer__kicker"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M1 4V1h3M10 1h3v3M13 10v3h-3M4 13H1v-3M4.5 7h5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>Первый шаг к безупречности</span>
+          <h3>Бесплатная<br>диагностика ЛКП</h3>
+          <p>Оценим состояние покрытия и подберём уход. При выборе комплекса — скидка: размер и условия уточняются при записи.</p>
+          <a href="#contacts" class="btn btn--gold magnet" data-topic="Диагностика ЛКП">Записаться на диагностику <svg class="arr"><use href="#i-arr"/></svg></a>
+          <small>Состав комплекса и условия предложения согласуем индивидуально.</small>
+        </div>
+        <div class="offer__img"><img src="img/offer.webp" alt="Замер толщины лакокрасочного покрытия" loading="lazy" data-parallax=".08"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 10. Контакты ============ -->
+  <section class="section" id="contacts">
+    <div class="container">
+      <div class="head">
+        <span class="kicker reveal"><b>10 /</b> Контакты</span>
+        <h2 class="h2 lines"><span class="ln"><span>Ваш автомобиль заслуживает AURUM.</span></span></h2>
+        <p class="sub reveal" style="--d:.1s">Расскажите о задаче — обсудим уход, стоимость и удобное время для визита в Краснодаре.</p>
+      </div>
+      <div class="contacts">
+        <div class="reveal">
+          <div class="card map" id="map">
+            <svg class="grid" viewBox="0 0 800 345" preserveAspectRatio="none" aria-hidden="true">
+              <g stroke="#2a2a2f" stroke-width="1">
+                <path d="M40 0v345M130 0v345M220 0v345M310 0v345M400 0v345M490 0v345M580 0v345M670 0v345M760 0v345"/>
+                <path d="M0 40h800M0 105h800M0 170h800M0 235h800M0 300h800"/>
+              </g>
+              <path class="map__river" d="M0 320C110 330 150 200 250 175s160 130 260 120 140-170 290-210" fill="none" stroke="#3a3f47" stroke-width="20" stroke-linecap="round"/>
+              <path d="M520 70 600 120 575 205 470 180z" fill="none" stroke="#55555c" stroke-width="2"/>
+            </svg>
+            <span class="map__tag">Схема города · без адреса</span>
+            <svg class="map__nav" viewBox="0 0 16 16" aria-hidden="true"><path d="M14 2 2 7.5l5.2 1.3L8.5 14z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+            <div class="map__pin"><b>Краснодар</b><span>Точное расположение уточняется</span></div>
+            <span class="map__region">КУБАНЬ</span>
+          </div>
+          <ul class="clist">
+            <li><svg viewBox="0 0 16 16"><path d="M8 15s5-4.6 5-8.5a5 5 0 0 0-10 0C3 10.4 8 15 8 15Z" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="8" cy="6.5" r="1.8" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><div><small>Адрес</small><span>Краснодар · точный адрес уточняется</span></div></li>
+            <li><svg viewBox="0 0 16 16"><path d="M3.5 1.5h2.8l1.4 3.6-1.8 1.1a7.6 7.6 0 0 0 3.9 3.9l1.1-1.8 3.6 1.4v2.8a1.5 1.5 0 0 1-1.5 1.5A11.8 11.8 0 0 1 2 3a1.5 1.5 0 0 1 1.5-1.5Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><div><small>Телефон</small><span>Номер телефона уточняется</span></div></li>
+            <li><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M8 4.5V8l2.5 1.6" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><div><small>График работы</small><span>Дни и часы работы уточняются</span></div></li>
+          </ul>
+          <div class="msgr">
+            <a href="#" class="btn btn--ghost" data-soon="Telegram">Telegram <svg class="arr"><use href="#i-arr"/></svg></a>
+            <a href="#" class="btn btn--ghost" data-soon="WhatsApp">WhatsApp <svg class="arr"><use href="#i-arr"/></svg></a>
+          </div>
+          <p class="note">Контакты, график и ссылки на мессенджеры требуют уточнения перед публикацией.</p>
+        </div>
+
+        <form class="card form reveal" style="--d:.12s" id="bookForm" novalidate>
+          <h3 style="margin-top:0">Записаться в центр</h3>
+          <p>Оставьте заявку — уточним услугу и согласуем время визита.</p>
+          <label class="field"><span>Имя</span><input type="text" name="name" placeholder="Как к вам обращаться" autocomplete="name" required></label>
+          <label class="field"><span>Телефон</span><input type="tel" name="phone" class="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required></label>
+          <div class="field select" id="topicSelect">
+            <span class="field__label" id="t1">Что вас интересует</span>
+            <button type="button" class="select__btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="t1"><span class="select__value">Диагностика ЛКП</span><svg viewBox="0 0 12 8"><path d="m1 1.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+            <ul class="select__list" role="listbox" aria-labelledby="t1">
+              <li class="select__opt" role="option" aria-selected="true">Диагностика ЛКП</li>
+              <li class="select__opt" role="option" aria-selected="false">Полировка</li>
+              <li class="select__opt" role="option" aria-selected="false">Керамика</li>
+              <li class="select__opt" role="option" aria-selected="false">PPF-плёнка</li>
+              <li class="select__opt" role="option" aria-selected="false">Химчистка салона</li>
+              <li class="select__opt" role="option" aria-selected="false">Оклейка</li>
+              <li class="select__opt" role="option" aria-selected="false">Шумоизоляция</li>
+              <li class="select__opt" role="option" aria-selected="false">Антигравийная защита</li>
+            </ul>
+            <input type="hidden" name="topic" value="Диагностика ЛКП">
+          </div>
+          <div class="field select">
+            <span class="field__label" id="m2">Удобный мессенджер</span>
+            <button type="button" class="select__btn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="m2"><span class="select__value">Telegram</span><svg viewBox="0 0 12 8"><path d="m1 1.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+            <ul class="select__list" role="listbox" aria-labelledby="m2">
+              <li class="select__opt" role="option" aria-selected="true">Telegram</li>
+              <li class="select__opt" role="option" aria-selected="false">WhatsApp</li>
+              <li class="select__opt" role="option" aria-selected="false">Телефонный звонок</li>
+            </ul>
+            <input type="hidden" name="messenger" value="Telegram">
+          </div>
+          <button type="submit" class="btn btn--gold btn--block">Оставить заявку <svg class="arr"><use href="#i-arr"/></svg></button>
+          <label class="consent"><input type="checkbox" name="consent" required><span class="consent__box" aria-hidden="true"></span><span>Согласен на обработку персональных данных. <a href="privacy.html" target="_blank">Политика конфиденциальности</a></span></label>
+          <div class="form__ok" role="status"><svg viewBox="0 0 46 46"><circle cx="23" cy="23" r="21" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m14 23.5 6 6 12-13" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><b>Заявка отправлена</b><span>Свяжемся с вами, уточним услугу и согласуем время визита.</span></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ Подвал ============ -->
+<footer class="footer">
+  <div class="container footer__top">
+    <a href="#top" class="logo reveal" aria-label="AURUM Detailing — наверх"><b>AURUM</b><span>DETAILING</span></a>
+    <p class="footer__slogan lines"><span class="ln"><span>Сохраняем не только блеск.</span></span><span class="ln"><span style="--i:1">Сохраняем характер.</span></span></p>
+  </div>
+  <div class="container footer__bottom">
+    <span>© AURUM Detailing · Краснодар</span>
+    <a href="privacy.html">Политика конфиденциальности</a>
+    <a class="dev-link" href="https://t.me/vladimir_nvrs" target="_blank" rel="noopener"><svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2l-11 6.9-4.7-1.5c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.3z"/></svg>Разработчик</a>
+    <span>Примерные цены. Не является офертой.</span>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="common.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
